@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-5">
       <fieldset>
-        <legend>Check Diabetes</legend>
+        <legend>Check Diabetes(Females)</legend>
         <form className="grid grid-cols-2" onSubmit={sendData}>
           <label className="label" htmlFor="pregnancies">
             Pregnancies
